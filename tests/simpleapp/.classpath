@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Twinkle"/>
+	<classpathentry kind="lib" path="/home/mk/Development/Multiplatform/Java/Twinkle/lib/BarryFramework.jar"/>
+	<classpathentry kind="lib" path="/home/mk/Development/Multiplatform/Java/Twinkle/lib/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/mk/Development/Multiplatform/Java/Twinkle/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="/home/mk/Development/Multiplatform/Java/Twinkle/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/home/mk/Development/Multiplatform/Java/Twinkle/lib/miglayout-3.7.3.1.jar"/>
+	<classpathentry kind="lib" path="/home/mk/Development/Multiplatform/Java/Twinkle/lib/miglayout-3.7.3.1-swing.jar"/>
+	<classpathentry kind="lib" path="/home/mk/Development/Multiplatform/Java/Twinkle/lib/rome-1.0RC2.jar"/>
+	<classpathentry kind="lib" path="/home/mk/Development/Multiplatform/Java/Twinkle/lib/ws-commons-util-1.0.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

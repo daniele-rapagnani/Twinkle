@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>@@APPNAME@@'s Changelog</title>
+      <link>@@HOST@@/@@ACFILE@@</link>
+      <description>Most recent changes with links to updates.</description>
+      <language>en</language>
+         <item>
+            <title>@@APPNAME@@ Version @@VERSIONSH@@</title>
+						<sparkle:releaseNotesLink>
+							@@HOST@@/changelogs/@@VERSION@@.html
+						</sparkle:releaseNotesLink>
+						<!--<sparkle:releaseNotesLink>
+							http://www.adium.im/changelogs/1.4.1.html
+						</sparkle:releaseNotesLink>-->
+            <pubDate>@@DATE@@</pubDate>
+            <enclosure url="@@HOST@@/@@UPDATEFILE@@" sparkle:version="@@VERSION@@" sparkle:shortVersionString="@@VERSIONSH@@" length="@@UPDATESIZE@@" type="application/octet-stream" sparkle:dsaSignature="@@DSASIGN@@" sparkle:md5Sum="@@MD5SUM@@"/>
+         </item>
+   </channel>
+</rss>
